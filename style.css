@@ -185,7 +185,8 @@ section.especialidades .flex {
 }
 
 .section.sobre {
-  padding: 100px 4%;
+  padding: 300px 4%;
+  margin-top: 300px;
 }
 
 .sobre .txt-sobre {
@@ -195,6 +196,7 @@ section.especialidades .flex {
 section.sobre .flex {
   align-items: center;
   gap: 60px;
+  margin-top: 300px;
 }
 
 .sobre .txt-sobre h2 {
@@ -235,6 +237,7 @@ section.sobre .flex {
 section.portifolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff3e;
+  margin-top: 200px;
 }
 
 section.portifolio .flex {
@@ -278,4 +281,58 @@ section.portifolio .flex {
 
 .overlay:hover {
   opacity: 1;
+}
+
+/* ESTILIZANDO O FORMULÁRIO (FALA COMIGO) */
+
+section.formulario {
+  padding: 80px 4%;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  gap: 15px;
+}
+
+form textarea {
+  resize: none;
+  max-height: 5000px;
+}
+
+form .btn-enviar {
+  margin-top: 30px;
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 140px;
+  background-color: #00ff08;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.02s;
+}
+
+form .btn-enviar input:hover {
+  box-shadow: 0px 0px 8px #00ff0868;
+  transform: scale(1.05);
 }
