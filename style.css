@@ -336,3 +336,56 @@ form .btn-enviar input:hover {
   box-shadow: 0px 0px 8px #00ff0868;
   transform: scale(1.05);
 }
+
+/* Estilo do Rodapé */
+
+footer {
+  padding: 80px 4%;
+  /* box-shadow: 0 0 40px 10px #ffffff3e; Colocando o sombreado no footer (Rodapé) */
+}
+
+footer .flex {
+  justify-content: space-between; /*Colocou os ícones no canto direito da tela*/
+}
+
+/*Colocando a linha no meio do logo e email*/
+footer .line-footer {
+  padding: 40px 0; /*Padding em cima e embaixo 20px e nas laterais 0*/
+}
+
+.borda {
+  border-top: 2px solid #00ff08;
+}
+/*Acabamos de criar a borda,colocamos uma classe borda no line-footer  */
+
+/*mexendo com o icone do email*/
+footer .line-footer p i {
+  color: #00ff08;
+  font-size: 28px;
+}
+
+footer .line-footer p a {
+  color: white;
+  margin: 10px;
+  font-size: 16px;
+}
+
+/* Estilizando os botões do Rodapé */
+.interface .line-footer .btn-social button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #00ff08;
+  cursor: pointer;
+  border: none;
+  margin: 0 6px;
+  transition: 0.2s;
+}
+
+.interface .line-footer .btn-social button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 8px #00ff08;
+}
+
+/* fazendo uma linha */
